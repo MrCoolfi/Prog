@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Team Liquid win int13!\n");
+    printf("Hello, world!\n");
     return 0;
 }
