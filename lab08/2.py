@@ -4,7 +4,7 @@ def f1(f):
         try:
             return f(a,b)
         except Exception as e:
-            print(e)
+            print('Ошибка',e)
     return f2
 
 @f1

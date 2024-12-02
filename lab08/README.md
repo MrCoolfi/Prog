@@ -23,3 +23,23 @@ for i in range(5,30,5):
 
 ## 2
 - Декоратор, который будет оборачивать каждую функцию в try блок для обработки ошибок.
+```python
+def f1(f):
+
+    def f2(a,b):
+        try:
+            return f(a,b)
+        except Exception as e:
+            print('Ошибка',e)
+    return f2
+
+@f1
+def del1(x,y):
+    return x/y
+
+
+print(del1(10,2))
+print(del1(10,0))
+```
+
+![-](screen/2.png)
