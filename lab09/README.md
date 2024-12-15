@@ -24,5 +24,6 @@ for cat_data in cat_gen:
     print(cat_data)
     break
 ```
+## Вывод программы
 
-![](1.png)
+![-](screen/1.png)
