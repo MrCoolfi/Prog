@@ -11,9 +11,9 @@ def api_request(url):
             break
 
 url = "https://api.thecatapi.com/v1/images/search"
+cat_gen = api_request(url)
 
-
-if __name__ == '__main__':
-    for cat_data in api_request(url):
-        print(cat_data)
+def f1(arg):
+    for cat_data in cat_gen:
         break
+    return cat_data
