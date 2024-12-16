@@ -1,4 +1,4 @@
-import lab7, lab8, lab9
+from lab10_package import lab7,lab8,lab9
 import typer
 
 def main(module: str, arg):
