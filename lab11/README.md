@@ -95,6 +95,6 @@ update_expenses_table()
 root.mainloop()
 ```
 
-![](screen\1.png)
-![](screen\2.png)
+![](screen/1.png)
+![](screen/2.png)
 .
